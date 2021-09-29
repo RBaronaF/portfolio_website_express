@@ -4,3 +4,56 @@ Student’s Name : Ricardo Barona
 StudentID : 301165198
 Date : 2021-09/29
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+     font-family: 'Poppins', sans-serif;
+     background-color: #10121B;
+     color: white;
+     box-sizing: border-box;
+     outline: none;
+}
+
+.left-image {
+position: absolute;
+height: 85%;
+
+}
+
+.navbar-nav li{
+     margin-left:15px;
+     margin-right:15px;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 300;   
+     }
+.active{
+     border-bottom: 2px solid #ffffff;
+}
+
+.btn-about{
+  font-size: 14px;
+  margin-top: 1em !important;
+  text-decoration: none;
+  padding: 15px 20px;
+  background: #037FFF;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  z-index: 1;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+   cursor: pointer;
+}
+
+.btn-about:hover{
+  text-decoration: none!important;
+  color: white!important;
+  background: #2591fd;
+  cursor: pointer;
+}
+
+.Title{font-weight: 500; font-size: 55px; color: black; }
+.Content{font-weight: 400; font-size: 15px; color: black;}
