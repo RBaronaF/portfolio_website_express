@@ -16,9 +16,8 @@ body, html {
 }
 
 .left-image {
-position: absolute;
-height: 85%;
-
+    position: absolute;
+    height: 85%;
 }
 
 .navbar-nav li {
@@ -37,7 +36,7 @@ height: 85%;
   font-size: 14px;
   margin-top: 1em !important;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 10px 20px;
   background: #037FFF;
   color: white;
   border-radius: 20px;
@@ -57,4 +56,5 @@ height: 85%;
 }
 
 .Title {font-weight: 500; font-size: 55px; color: black; }
-.Content {font-weight: 400; font-size: 15px; color: black;}
+.Content {font-weight: 400; font-size: 16px; color: black; padding : 20px 0px;}
+.Landing {padding-top : 50px;}
