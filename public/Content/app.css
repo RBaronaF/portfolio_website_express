@@ -348,7 +348,7 @@ textarea {
      background: #2591fd;
      cursor: pointer;
 }
-   
+
 @media only screen and (max-width: 500px) {
      .btn-mod.btn-large {
           padding: 6px 16px;
