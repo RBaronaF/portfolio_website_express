@@ -12,3 +12,5 @@
 After start server, you can check the website by typing "localhost:3000" on Web browser.
 
 Hope to be helpful for you. Thanks.
+
+Deployed URL : 
