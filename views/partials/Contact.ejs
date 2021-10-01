@@ -16,7 +16,7 @@ Date : 2021-09-30
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return window.location.href('/');" method="GET" role="form">
+            <form id="contact-form" name="myForm" class="form" action="#" method="POST" role="form">
                 <div class="form-group">
                     <label class="form-label" id="nameLabel" for="name"></label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" tabindex="1">
@@ -41,7 +41,7 @@ Date : 2021-09-30
                 </div>
 
                 <div class="text-center margin-top-bottom-25">
-                    <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+                    <button type="button" class="btn btn-mod btn-border btn-large" onclick="location.href='/home';">Send Message</button>
                 </div>
 
             </form><!-- End form -->
